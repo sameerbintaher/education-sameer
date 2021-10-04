@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='d-flex justify-content-between align-items-center p-5 bg-dark'>
+        <div className='d-lg-flex justify-content-between align-items-center p-5 bg-dark d-sm-block'>
             <Link className='main' to='/home'><h1>SamPro</h1></Link>
-            <div className='d-flex justify-content-center align-items-center'>
+            <div className='d-lg-flex d-sm-block justify-content-center align-items-center'>
                 <Link className='ms-5 nav' to='/home'>Home</Link>
                 <Link className='ms-5 nav' to='/about'>About</Link>
                 <Link className='ms-5 nav' to='/services'>Services</Link>

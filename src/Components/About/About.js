@@ -11,7 +11,7 @@ const About = () => {
 
             <h1 className='container text-center my-5'>More About Our Company</h1>
 
-            <div className='container d-flex my-5'>
+            <div className='container d-lg-flex d-sm-block my-5'>
 
                 <div className='p-3'>
                     <h1 className='my-4'>Want to know more</h1>
@@ -24,10 +24,10 @@ const About = () => {
                     </ul>
                 </div>
                 <div>
-                    <div className='d-flex'>
-                        <img className='mx-4 mb-4' src="https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.869_mUW4z9.jpg" alt="" />
+                    <div className='d-lg-flex d-sm-block'>
+                        <img className='mx-lg-4 mb-4 ms-sm-0' src="https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.869_mUW4z9.jpg" alt="" />
 
-                        <img className='mt-4' src="https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout1.png.pagespeed.ic.LtbVvWuvv5.jpg" alt="" />
+                        <img className='mt-lg-4 ms-sm-0' src="https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout1.png.pagespeed.ic.LtbVvWuvv5.jpg" alt="" />
                     </div>
                 </div>
             </div>

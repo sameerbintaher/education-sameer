@@ -22,14 +22,14 @@ const Home = () => {
                 </Link>
             </div>
 
-            <div className='container text-center my-5 shadow p-5 rounded-3'>
+            <div className='container w-sm-100 text-center my-5 shadow p-lg-5 rounded-3'>
 
                 <p className='text-primary'>Popular Services</p>
                 <h1>Lets Browse Our Services</h1>
 
                 <div className='carts'>
                     {services.map((service) => (
-                        <div className='border m-3 cart' key={service.id}>
+                        <div className='border m-3 m-sm-1 cart' key={service.id}>
                             <img className='img-fluid' src={service.img} alt="" />
                             <h1 className='my-2 p-3'>{service.title}</h1>
                             <p className='p-3'>{service.description}</p>
@@ -43,7 +43,7 @@ const Home = () => {
 
             </div>
 
-            <div className='container d-flex my-5'>
+            <div className='container d-lg-flex d-sm-block my-5'>
                 <div className='p-3'>
                     <p className='my-4'>More about our company</p>
                     <h1 className='my-4'>Want to know more</h1>
@@ -59,8 +59,8 @@ const Home = () => {
                     </Link>
                 </div>
                 <div>
-                    <div className='d-flex'>
-                        <img className='mx-4 mb-4' src="https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.869_mUW4z9.jpg" alt="" />
+                    <div className='d-lg-flex d-sm-block'>
+                        <img className='mx-lg-4 mb-4' src="https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.869_mUW4z9.jpg" alt="" />
 
                         <img className='mt-4' src="https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout1.png.pagespeed.ic.LtbVvWuvv5.jpg" alt="" />
                     </div>
