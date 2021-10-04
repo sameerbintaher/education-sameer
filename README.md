@@ -16,7 +16,7 @@ vi. Custom CSS <br><hr>
 i. You will find the education and business service <br><hr> 
 ii. You can apply best university worldwide by discussing with consultant<br><hr> 
 iii. You can start your business by taking great advise from consultant <br><hr> 
-iv. You can develope your programming and graphic knowledge by taking any course from this website.
+iv. You can develope your programming and graphic knowledge by taking any course from this website. <br><hr>
 v. This is Completely responsive for mobile devices <br><hr> 
 
 So!! Why late? Start your dream  with SamPro Education and Consultancy.
